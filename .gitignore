@@ -28,3 +28,11 @@ env/
 # OS Generated Files
 .DS_Store
 Thumbs.db
+
+# Datasets downloaded by torchvision etc.
+data/
+*.zip
+
+# Logs / experiment tracking
+wandb/
+lightning_logs/
